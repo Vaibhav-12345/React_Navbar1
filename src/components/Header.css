@@ -1,0 +1,42 @@
+nav{
+    height: 80px;
+    display: block;
+}
+
+.icon{
+    color: black;
+}
+
+
+.cross{
+    display: none;
+}
+
+
+@media (max-width:768px){
+    ul{
+        display: none;
+    }
+
+    #active {
+        position: absolute;
+        top: 80px;
+        left:0;
+         height: 100%;
+         width: 100%;
+         background-color: red;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 4rem;
+         font-size: 3rem;
+         gap: 2rem;
+         text-align:justify;
+     }
+     .cross{
+        display: block;
+     }
+
+  
+     
+}
