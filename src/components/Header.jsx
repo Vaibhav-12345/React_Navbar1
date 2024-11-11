@@ -13,7 +13,7 @@ const Header = () => {
 
 
     return (
-        <nav className='w-full flex items-center justify-between  p-5 bg-cyan-500 shadow-lg shadow-cyan-500/50'>
+        <nav className='w-full flex items-center justify-between  p-5 bg-cyan-500 shadow-lg shadow-cyan-500/50 sticky top-0'>
             {/* logo part  */}
             <div className="log w-12 ">
                 <img src="https://png.pngtree.com/png-vector/20211023/ourmid/pngtree-salon-logo-png-image_4004444.png" alt="" />
