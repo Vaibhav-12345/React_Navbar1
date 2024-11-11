@@ -28,11 +28,15 @@ const Header = () => {
             </ul>
 
             <div className="icon text-xl md:hidden" onClick={toggler}>
-                {toggle ? <TbMenuDeep className='Hamburger ' /> : <RxCross1 className='cross ' />}
+                {toggle ? <TbMenuDeep  /> : <RxCross1  />}
                 {/* <TbMenuDeep  className='Hamburger '/>
              <RxCross1  className='cross hidden'/> */}
             </div>
         </nav>
+
+
+
+
 
     );
 }
